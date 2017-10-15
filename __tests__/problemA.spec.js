@@ -82,7 +82,11 @@ describe('Objects', () => {
     expect(JSON.parse(LOG[13])).toEqual([ { x: 30, y: 50, width: 100, height: 10 },
       { cx: 34, cy: 43, radius: 9 } ]);
   });
+  test('Adds triangle to shape array', () => {
+    expect(JSON.parse(LOG[14])).toEqual([ { x: 30, y: 50, width: 100, height: 10 },
+      { cx: 34, cy: 43, radius: 9 }, {base:33, height:44} ]);   
+  })
   test('Logs triangle\'s hypotenuse', () => {
-    expect(LOG[14]).toEqual("undefined");
+    expect(LOG[15]).toEqual("undefined");
   });
 })

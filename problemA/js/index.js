@@ -83,8 +83,8 @@
 //Log out the variable. Be sure to inspect it in the developer console!
 
 
-//Add a new ANONYMOUS object to the `shapes` array representing a triangle.
-//The triangle should have a width of 33 and a height of 44.
+//Add a new ANONYMOUS object to the `shapes` array representing a right triangle.
+//The triangle should have a `base` of 33 and a `height` of 44.
 //Log out the updated shapes array
 
 
