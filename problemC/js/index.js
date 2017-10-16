@@ -65,15 +65,15 @@ brush.fillRect(0, 0, canvas.width, canvas.height); //fill the canvas
 
 
 //The second fin is defined by one curve with:
-//  - start point: (310,260)
-//  - control point 1: (360,265)
-//  - control point 2: (395,340)
-//  - end point: (335,410)
+//  - start point: (190,260)
+//  - control point 1: (140,265)
+//  - control point 2: (105,340)
+//  - end point: (165,410)
 //And a second curve with
 //  - start point: end of the first curve
-//  - control point 1: (350,370)
-//  - control point 2: (335,355)
-//  - end point: (310,355)
+//  - control point 1: (150,370)
+//  - control point 2: (165,355)
+//  - end point: (190,355)
 //Remember to `fill()` the path when you're done!
 
 

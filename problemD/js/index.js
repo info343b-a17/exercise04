@@ -101,19 +101,20 @@ let huskyGames2016 = [
 
 //It would be useful to be able to apply multiple "filter criteria" to an array
 //of games at once.
-//To support this, define a function `both()` that takes two *callback functions*
-//as arguments. The `both()` function should then define a _new_ function (e.g.,
-//`doubleFilterGame()` that takes in a game object and returns the result of 
-//passing that object to both of the callback functions and "anding" (&&) the
-//result. The `both()` function should then return this new function.
+//To support this, define a function `makeCombinedFilter()` that takes two 
+//*callback functions* as arguments. The `makeCombinedFilter()` function should 
+//then define a _new_ function (e.g., `doubleFilterGame()`) that takes in a game 
+//object and returns the result of passing that object to both of the callback 
+//functions and "anding" (&&) the result. The `makeCombinedFilter()` function 
+//should then return this new function for later use.
 
 
 
 //Create a variable `fumbledAndLostFilter` which is a _function_ created by calling
-//the `both()` function and passing two callback functions: one for filtering
-//for games UW lost (e.g., the `huskiesLost()` function), and one for filtering
-//for games with fumbles (this can be a named or an anonymous callback as like 
-//you used earlier).
+//the `makeCombinedFilter()` function and passing two callback functions: one for
+//filtering for games UW lost (e.g., the `huskiesLost()` function), and one for
+//filtering for games with fumbles (this can be a named or an anonymous callback 
+//like you used earlier).
 
 
 
