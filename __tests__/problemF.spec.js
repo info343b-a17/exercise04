@@ -60,9 +60,9 @@ describe('Utilized window timer methods', () => {
 describe('Created a ticking clock', () => {
   test('Implemented the drawClock() function', () => {
     expect(solution.drawClock).toBeDefined();
-    //not effectively tested; removing
-    // let blankCanvasData = (new Canvas(500,500)).toDataURL();
-    // expect(solution.canvas.toDataURL()).not.toEqual(blankCanvasData); //checks not blank
+    let blankCanvasData = (new Canvas(500,500)).toDataURL();
+    solution.drawClock(new Date());
+    expect(solution.canvas.toDataURL()).not.toEqual(blankCanvasData); //checks not blank
   })
   test('Made the clock tick smoothly', () => {
     expect(window.setInterval).toBeCalledWith(expect.any(Function), 16);

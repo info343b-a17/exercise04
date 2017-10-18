@@ -1,5 +1,5 @@
 //problem config
-const JS_FILE_PATH = 'problemE/js/index.js';
+const JS_FILE_PATH = 'problemE-optional/js/index.js';
 
 //dependencies
 const fs = require('fs');
