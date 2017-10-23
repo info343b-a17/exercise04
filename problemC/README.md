@@ -8,7 +8,7 @@ You will write JavaScript code to produce a picture of a old-school rocket ship:
 
 To complete the exercise, edit the included **`js/index.js`** file to add in the code described in the comments. Note that you will _not_ need to edit the HTML file!
 
-You can see the results of your work either by opening up the included `index.html` file in a browser. Remember to refresh the page after you update your code, and to check for any errors in the Developer console.
+You can see the results of your work by opening up the included `index.html` file in a browser. Remember to refresh the page after you update your code, and to check for any errors in the Developer console.
 
 ## Resources
 - [Canvas Tutorial (mdn)](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial)
